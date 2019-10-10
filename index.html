@@ -9,16 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kyle Apostol - Start Bootstrap Theme</title>
+    <title>Kyle Apostol</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
+    <!-- <a href="https://pngtree.com/free-backgrounds">free background photos from pngtree.com</a> -->
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
 
@@ -41,7 +42,8 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
+                    <img src='./img/logo-2.png'>
+                    <!-- <i class="fa fa-play-circle"></i> <span class="light">Kyle</span> Apostol -->
                 </a>
             </div>
 
@@ -53,13 +55,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#download">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#skills">Skill</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="img/Resume4_copy.pdf">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -75,9 +83,9 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Kyle Apostol</h1>
-                        <p class="intro-text">I am an awesome programmer who loves employment
+                        <p class="intro-text">Front End Developer
                             </p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                        <a href="#download" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -86,61 +94,194 @@
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
+    <!-- Projects Section -->
     <section id="download" class="content-section text-center">
+            <h2>Featured Projects</h2>
         <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+            <div class="container-fluid">
+                <div class='row'>
+                    <div class="col-sm-4">Ultimate
+                        <!-- Button trigger modal -->
+                        <div>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch Ultimate</button>
+                        </div>      
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Ultimate</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">.../div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary">Live</button>
+                                            <button type="button" class="btn btn-primary">Github</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="col-sm-4">BootStrap
+                        <!-- Button trigger modal -->
+                        <div>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch BootStrap</button>
+                        </div>      
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">BootStrap</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                    </div>
+                                    <div class="modal-body"> ...</div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Live</button>
+                                        <button type="button" class="btn btn-primary">Github</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">Remogy
+                        <!-- Button trigger modal -->
+                        <div>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dvsn">Launch Remogy</button>
+                        </div>      
+                        <!-- Modal -->
+                        <div class="modal fade" id="dvsn" tabindex="-1" role="dialog"  aria-hidden="true">
+                            <div class="modal-dialog-lg" role="document">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div class="modal-body">
+                                        <p class="text-muted">Teacher to Student Interaction</p>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Live</button>
+                                        <button type="button" class="btn btn-primary">Github</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- skill Section -->
+    <section id="skills"  class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <h2>Skills</h2>
+                <div class="col-sm-2">
+                    <div class="devicon-react-original colored fa-5x"></div>
+                    <p class="text-muted">React</p>
+                </div>
+                <div class="col-sm-2">
+                    <div class="devicon-javascript-plain colored fa-5x"></div>
+                    <p class="text-muted">JavaScript</p>
+                </div>
+                <div class="col-sm-2">
+                    <div class="devicon-css3-plain colored fa-5x"></div>
+                    <p class="text-muted">CSS3</p>
+                </div>
+                <div class="col-sm-2">
+                    <div class="devicon-html5-plain colored fa-5x"></div>
+                    <p class="text-muted">HTML5</p>
+                </div>
+                <div class="col-sm-2">
+                    <div class="devicon-bootstrap-plain colored fa-5x"></div>
+                    <p class="text-muted">BootStrap</p>
+                </div>
+                <div class="col-sm-2">
+                    <div class="devicon-php-plain colored fa-5x"></div>
+                    <p class="text-muted">php</p>
+                </div> 
+                <div class="col-sm-2">
+                    <div class="devicon-mysql-plain-wordmark colored fa-5x"></div>
+                    <p class="text-muted">MySQL</p>
+                </div> 
+                <div class="col-sm-2">
+                    <div class="devicon-github-plain colored fa-5x"></div>
+                    <p class="text-muted">Github</p>
+                </div> 
+                <div class="col-sm-2">
+                    <div class="devicon-jquery-plain colored fa-5x"></div>
+                    <p class="text-muted">jQuery</p>
+                </div> 
+                <div class="col-sm-2">
+                    <div class="devicon-nodejs-plain-wordmark colored fa-5x"></div>
+                    <p class="text-muted">Node</p>
+                </div> 
+                <div class="col-sm-2">
+                    <div class="devicon-webpack-plain colored fa-5x"></div>
+                    <p class="text-muted">Webpack</p>
+                </div> 
+                <div class="col-sm-2">
+                    <div class="devicon-apache-plain colored fa-5x"></div>            
+                    <p class="text-muted">apache</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>About Me</h2>
+                    <p>I am a <a href="http://startbootstrap.com/template-overviews/grayscale/">developer</a> who loves problem solving and learning. My journey started when I made my first blog post using HTML and CSS. Along the way, I learned JavaScript and many other frameworks and libraries.</p>
+                    <p>I find programming to be very satisfying, by being able to build anything that comes to mind and just by simply being <a href="http://gratisography.com/">creative.</a> I get a sense of fullfillment when I see my <a href="http://snazzymaps.com/">projects</a> come to life and be able to share it with others.
+                    <p>In my personal life, I enjoy the outdoors, exploring and being with family and friends. I love to travel and I make it a goal to visit something new every year to appreciate what the nature has to offer.</p>
+                </div>
+            </div>
+        </section>
+
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                <h2>Contact Me</h2>
+                <!-- <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p> -->
+                <p><a href="mailto:kyleapostol@yahoo.com">kyleapostol@yahoo.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://www.linkedin.com/in/kyle-apostol/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/kyleapostol" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a class="btn btn-default btn-lg"><i class="fa fa-phone fa-fw"></i> <span>(760) 695-7405</span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
 
+
     <!-- Map Section -->
-    <div id="map"></div>
+    <!-- <div id="map"></div> -->
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p class="text-muted">Copyright &copy; All rights reserved 2019 | kyleapostol.com</p>
         </div>
     </footer>
 
